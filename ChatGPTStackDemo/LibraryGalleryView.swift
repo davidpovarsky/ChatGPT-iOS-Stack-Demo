@@ -15,7 +15,7 @@ struct LibraryGalleryView: View {
             }
             Section("Motion") {
                 Button("Trigger Pow effect") { burst += 1 }
-                    .changeEffect(.pulse, value: burst)
+                    .changeEffect(.shake, value: burst)
                 Label("Lottie is linked for vector animation support", systemImage: "play.square.stack")
             }
             Section("Purpose") {
